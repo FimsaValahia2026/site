@@ -1,0 +1,72 @@
+html,body{
+margin:0;
+width:100%;
+height:100%;
+}
+
+.page{
+width:100%;
+height:100%;
+background-size:contain;
+background-repeat:no-repeat;
+background-position:center;
+position:relative;
+}
+
+/* zone click */
+.zone{
+position:absolute;
+}
+
+/* Pagina 1 */
+.menu{
+top:2%;
+right:2%;
+width:10%;
+height:6%;
+}
+
+/* Pagina 2 */
+.back{
+top:2%;
+right:2%;
+width:10%;
+height:6%;
+}
+
+.discipline{
+top:38%;
+left:5%;
+width:90%;
+height:6%;
+}
+
+/* Pagina 3 */
+.input{
+position:absolute;
+left:10%;
+width:80%;
+height:6%;
+opacity:0;
+}
+
+.user{ top:40%; }
+.pass{ top:50%; }
+
+.loginBtn{
+position:absolute;
+top:60%;
+left:10%;
+width:80%;
+height:6%;
+background:transparent;
+border:none;
+}
+
+/* Pagina 4 */
+.noteBtn{
+top:30%;
+left:10%;
+width:80%;
+height:8%;
+}
